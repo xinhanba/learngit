@@ -1,7 +1,15 @@
-﻿2222222回到房间很干净
-
-撒旦啊
-
-打
-
-当时的爱的啊大师傅大师傅士大夫地方都是东方先锋的持续性促销现场现场从
+﻿git命令：
+	// 本地版本控制
+	git init    				// 将本地文件夹初始化为本地库，此时文件夹里有个.git隐藏文件夹，.git存的是版本控制，最好别改
+	git add .					// 将新建（修改，删除）的文件加入到暂存区，全部
+	git add xx.txt				// 将新建（修改，删除）的文件加入到暂存区，指定某个文件
+	git commit -m "我是注释"	// 将暂存区的文件提交到版本库里，并添加注释
+	git reset --hard HEAD^		// 回退版本记录，几个^表示要退回几个版本
+	git reset --hard xxxxxxx	// 回退版本记录，当回退多个版本时，不可能一个一个数，xxxxxxx是版本号
+	git log						// 查询记录，可以找出版本号
+	git checkout -- xx.txt		// 回退版本到本地库，回退到暂存区的最新记录
+	git rm xx.txt				// 删除暂存区记录
+	// 推送远端版本
+	git remote add origin https://github.com/xinhanba/learngit.git	// 本地版本和远端版本建立连接
+	git push -u origin master										// 推送本地版本库文件到远端版本库中
+	
