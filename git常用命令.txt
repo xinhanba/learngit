@@ -19,3 +19,13 @@
 	
 	// 从远端版本库拉取文件
     git clone https://github.com/xinhanba/learngit.git
+
+	// 创建分支
+	git branch					// 查看分支
+	git branch dev				// 创建分支
+	git switch dev				// 切换分支
+	git checkout dev			// 切换分支
+	git checkout -b dev			// 相当于git branch dev和git checkout dev。-b参数表示创建并切换到dev分支
+	git switch -c dev			// 同上，创建并切换分支
+	git branch -d dev			// 删除分支
+	git merge dev				// 合并dev分支到当前分支
