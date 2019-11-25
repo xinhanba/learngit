@@ -10,6 +10,6 @@
 	git checkout -- xx.txt		// 回退版本到本地库，回退到暂存区的最新记录
 	git rm xx.txt				// 删除暂存区记录
 	// 推送远端版本
-	git remote add origin https://github.com/xinhanba/learngit.git	// 本地版本和远端版本建立连接
-	git push -u origin master										// 推送本地版本库文件到远端版本库中
+	git remote add origin https://github.com/xinhanba/learngit.git	// 本地版本和远端版本建立连接（只需要执行一次即可）
+	git push -u origin master										// 推送本地版本库文件到远端版本库中，（-u首次使用，再次使用时可不带）
 	
